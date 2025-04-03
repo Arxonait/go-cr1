@@ -13,8 +13,8 @@ History:
 package main
 
 import (
-	"cr1/task1"
-	"cr1/task2"
+	"cr1/src/task1"
+	"cr1/src/task2"
 	"fmt"
 )
 
