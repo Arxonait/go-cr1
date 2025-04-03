@@ -1,4 +1,4 @@
-package main
+package task1
 
 import (
 	"testing"
@@ -19,7 +19,7 @@ func TestLongestCommonPrefix(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		result := longestCommonPrefix(testCase.input)
+		result := LongestCommonPrefix(testCase.input)
 		if result != testCase.expected {
 			t.Errorf("Для входных данных %v ожидалось %s, но получено %s", testCase.input, testCase.expected, result)
 		}

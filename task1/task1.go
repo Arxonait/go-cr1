@@ -7,14 +7,10 @@ History:
   - [03.04.2025 17:02]: Initial task1
 */
 
-package main
-
-import (
-	"fmt"
-)
+package task1
 
 // Функция для поиска наибольшего общего префикса
-func longestCommonPrefix(strs []string) string {
+func LongestCommonPrefix(strs []string) string {
 	// Если массив пустой, возвращаем пустую строку
 	if len(strs) == 0 {
 		return ""
@@ -36,9 +32,4 @@ func longestCommonPrefix(strs []string) string {
 // Вспомогательная функция для проверки, начинается ли строка с заданного префикса
 func startsWith(str, prefix string) bool {
 	return len(str) >= len(prefix) && str[:len(prefix)] == prefix
-}
-
-func main() {
-	words := []string{"flower", "flow", "flight"}
-	fmt.Println("Наибольший общий префикс:", longestCommonPrefix(words))
 }
