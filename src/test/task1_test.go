@@ -10,6 +10,7 @@ History:
 package task1
 
 import (
+	"cr1/src/task1"
 	"testing"
 )
 
@@ -28,7 +29,7 @@ func TestLongestCommonPrefix(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		result := LongestCommonPrefix(testCase.input)
+		result := task1.LongestCommonPrefix(testCase.input)
 		if result != testCase.expected {
 			t.Errorf("Для входных данных %v ожидалось %s, но получено %s", testCase.input, testCase.expected, result)
 		}
