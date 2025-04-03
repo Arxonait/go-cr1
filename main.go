@@ -6,13 +6,15 @@ Description:
 Author: Никита Мякишев (Вариант 3)
 License: GPLv3
 History:
-  - [03.04.2025 17:02]: Initial main
+  - [03.04.2025 17:35]: Initial main
+  - [03.04.2025 18:04]: add task2
 */
 
 package main
 
 import (
 	"cr1/task1"
+	"cr1/task2"
 	"fmt"
 )
 
@@ -20,4 +22,6 @@ func main() {
 	// Задача 1: Найти наибольший общий префикс в заданном массиве строк
 	words := []string{"flower", "flow", "flight"}
 	fmt.Println("Наибольший общий префикс:", task1.LongestCommonPrefix(words))
+
+	task2.RunTask2()
 }
