@@ -4,7 +4,7 @@ Description: Unit test для task1.
 Author: Никита Мякишев (вариант 3)
 License: GPLv3
 History:
-  - [03.04.2025 17:02]: Initial task1_test
+  - [03.04.2025 17:25]: Initial task1_test
 */
 
 package task1
