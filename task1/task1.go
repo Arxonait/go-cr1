@@ -1,7 +1,7 @@
 /*
-Project: Go Algorithms and Concurrency
+Project: Контрольная работа. Алгоритмы и Go Routines.
 Description: Находит наибольший общий префикс в заданном массиве строк.
-Author: Никита Мякишев
+Author: Никита Мякишев (вариант 3)
 License: GPLv3
 History:
   - [03.04.2025 17:02]: Initial task1
